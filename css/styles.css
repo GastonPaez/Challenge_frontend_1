@@ -39,3 +39,42 @@ li {
 .profile-img {
     border-radius: 50%;
 }
+
+.container-skills {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.skills {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.skills-link {
+    display: flex;
+	width: 10%;
+    height: 125px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+.skills-link p {
+    text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	
+}
+
+.container-contact {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container-footer {
+    text-align: center;
+}
