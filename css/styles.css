@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
 li {
     list-style: none;
 }
@@ -40,17 +47,17 @@ li {
     border-radius: 50%;
 }
 
-.container-skills {
+.container-skills, .container-hobbies {
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.skills {
+.skills, .hobbies{
     display: flex;
 	flex-wrap: wrap;
 }
 
-.skills-link {
+.skills-link, .hobbies-link{
     display: flex;
 	width: 10%;
     height: 125px;
@@ -60,13 +67,19 @@ li {
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
+    flex-direction: column;    
+    justify-content: flex-end;
     align-items: center;
-    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+    
 }
-.skills-link p {
+
+.skills-link p, .hobbies-link p{
     text-decoration: none;
 	color: rgb(0, 0, 0);
 	font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
 	
 }
 
