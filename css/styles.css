@@ -1,0 +1,41 @@
+li {
+    list-style: none;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    
+}
+
+.nav-list {
+    width: 100px;
+}
+
+.container-profile {
+    display: flex;   
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
