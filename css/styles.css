@@ -91,3 +91,15 @@ li {
 .container-footer {
     text-align: center;
 }
+
+.education-section {
+    display: flex;
+    background: lightblue;
+    flex-wrap: wrap;
+    
+    
+}
+
+.education {
+    width: 400px;
+}
