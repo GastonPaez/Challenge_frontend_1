@@ -9,13 +9,16 @@ li {
     list-style: none;
 }
 
-
-
+/*///////////////////////////////////////
+/////////////////// NAVBAR //////////////
+///////////////////////////////////////*/
 .navbar {
     display: flex;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
+    font-size: 22px;
+    margin-top: 30px;
 }
 
 .nav-right {
@@ -28,6 +31,7 @@ li {
 .nav-list {
     width: 100px;
 }
+
 
 .container-profile {
     display: flex;   
@@ -43,16 +47,63 @@ li {
     width: 35%;
 }
 
+/*////////////////////////////////////////
+///////////////// PROFILE ///////////////
+///////////////////////////////////////*/
+.container-profile {
+    margin-top: 100px;
+}
 .profile-img {
     border-radius: 50%;
 }
 
+.text-presentation {
+    font-size: 48px ;
+    font-weight: 500;
+}
+
+.text-info {
+    margin-top: 30px;
+    font-size: 26px;
+    margin-bottom: 30px;
+
+}
+
+/*////////////////////////////////////////
+///////////////// ABOUT ME ///////////////
+///////////////////////////////////////*/
+
+.container-about{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+.about-text{    
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/*////////////////////////////////////////
+//////////////// SKILSS /////////////////
+///////////////////////////////////////*/
+
+.subtitle {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
 .container-skills, .container-hobbies {
+    
+    margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 .skills, .hobbies{
+    justify-content: center;
     display: flex;
 	flex-wrap: wrap;
 }
@@ -83,7 +134,12 @@ li {
 	
 }
 
+/*////////////////////////////////////////
+//////////////// CONTACT /////////////////
+///////////////////////////////////////*/
+
 .container-contact {
+    margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -117,4 +173,8 @@ li {
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+.container-footer {
+    padding: 50px;
 }
