@@ -103,3 +103,18 @@ li {
 .education {
     width: 400px;
 }
+
+.container-contact {
+    display: flex;
+}
+
+.contact-img {
+    width: 464px;
+    height: auto;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
