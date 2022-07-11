@@ -8,6 +8,9 @@
 li {
     list-style: none;
 }
+body {
+    background-image: linear-gradient(to bottom, #ffffff, #e6e7e6, #cecece, #b7b7b7, #a0a0a0);
+}
 
 /*///////////////////////////////////////
 /////////////////// NAVBAR //////////////
@@ -24,7 +27,7 @@ li {
 
 .nav-right {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 80px;
     
 }
@@ -75,10 +78,11 @@ li {
 ///////////////////////////////////////*/
 
 .container-about{
+    background-image: linear-gradient(to right, #222222, #2b2b2b, #343434, #3e3e3e, #484848, #484848, #484848, #484848, #3e3e3e, #343434, #2b2b2b, #222222);
     margin-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 15px 150px 100px 30px;    
     text-align: center;
+    color: #FFF;
 }
 .about-text{    
     font-size: 22px;
@@ -140,6 +144,8 @@ li {
 ///////////////////////////////////////*/
 
 .container-education {
+    color: #fff;
+    background-image: linear-gradient(to right, #222222, #2b2b2b, #343434, #3e3e3e, #484848, #484848, #484848, #484848, #3e3e3e, #343434, #2b2b2b, #222222);
     margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
@@ -175,11 +181,68 @@ li {
 
 }
 
+.education-section {
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.education {
+    width: 400px;
+}
+
+/*////////////////////////////////////////
+////////////// EXPERIENCE ////////////////
+///////////////////////////////////////*/
+
+.experience-article {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-image img {
+    width: 800px;
+    height: auto;
+}
+
+.experience-article {
+    display: flex;
+}
+.experience-article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.article-title {
+    font-size: 40px;
+    font-weight: 500;
+}
+.article-subtitle {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.article-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.article-buttons button {
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    
+}
+
 /*////////////////////////////////////////
 //////////////// CONTACT /////////////////
 ///////////////////////////////////////*/
 
 .container-contact {
+    background-image: linear-gradient(to right, #222222, #2b2b2b, #343434, #3e3e3e, #484848, #484848, #484848, #484848, #3e3e3e, #343434, #2b2b2b, #222222);
+    color: #fff;
     margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
@@ -187,18 +250,6 @@ li {
 
 .container-footer {
     text-align: center;
-}
-
-.education-section {
-    display: flex;
-    background: lightblue;
-    flex-wrap: wrap;
-    
-    
-}
-
-.education {
-    width: 400px;
 }
 
 .container-contact {
@@ -220,8 +271,3 @@ li {
     padding: 50px;
 }
 
-
-.experience-article {
-    display: flex;
-    justify-content: center;
-}
