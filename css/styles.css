@@ -219,3 +219,9 @@ li {
 .container-footer {
     padding: 50px;
 }
+
+
+.experience-article {
+    display: flex;
+    justify-content: center;
+}
