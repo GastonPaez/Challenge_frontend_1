@@ -200,7 +200,7 @@ body {
 }
 
 .experience-image img {
-    width: 800px;
+    width: 500px;
     height: auto;
 }
 
@@ -212,6 +212,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 50px;
+    max-width: 500px;
 }
 
 .article-title {
