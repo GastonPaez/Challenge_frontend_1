@@ -48,7 +48,8 @@ body {
 .links {
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    min-width: 300px;
+    width: 45%;
 }
 
 /*////////////////////////////////////////
@@ -72,6 +73,7 @@ body {
     margin-bottom: 30px;
 
 }
+
 
 /*////////////////////////////////////////
 ///////////////// ABOUT ME ///////////////
