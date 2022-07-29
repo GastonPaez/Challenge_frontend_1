@@ -289,14 +289,14 @@
                 <h1 class="title-contact">Contacto</h1>
                 <p class="text-contact">¿Queres contactarte conmigo?</p>
                 <p class="text-contact">Completa el siguiente formulario y me pondre en contacto.</p>
+                <form action="" id="form" method="POST">
+                    <input type="text" name="name" placeholder="Ingrese su nombre" id="form-name">
+                    <input type="email" name="email" placeholder="mail@mail.com" id="form-mail">
+                    <input type="text" name="asunto" placeholder="Asunto" id="form-subject">
+                    <input type="text" name="mensaje" placeholder="Mensaje" id="form-message">
 
-                <input type="text" name="name" placeholder="Ingrese su nombre" id="">
-                <input type="email" name="email" placeholder="mail@mail.com" id="">
-                <input type="text" name="asunto" placeholder="Asunto" id="">
-                <input type="text" name="mensaje" placeholder="Mensaje" id="">
-
-                <button class="send-message">Enviar Mensaje</button>
-                
+                    <button class="send-message" type="submit">Enviar Mensaje</button> 
+                </form>
             </div>
         </div>
     </main>   
@@ -306,5 +306,7 @@
             <p>Sitio Web desarrollado por Gaston Paez 2022</p>
         </div>
     </footer> 
+    
+    <script src="./js/validationForm.js"></script>
 </body>
 </html>

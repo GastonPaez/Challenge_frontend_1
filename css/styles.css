@@ -22,18 +22,20 @@ body {
     padding-right: 150px;
     font-size: 22px;
     margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;    
     
 }
 
 .nav-right {
     display: flex;
-    justify-content: space-around;
-    margin-right: 80px;
+    justify-content: space-between;
+    margin-right: 150px;
     
 }
 
 .nav-list {
-    width: 100px;
+    width: 130px;
 }
 
 
@@ -151,6 +153,8 @@ body {
     margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 90px;
+    padding-top: 50px;
 }
 .education-section {
     display: flex;
@@ -267,7 +271,25 @@ body {
 .info-contact {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
+    font-size: 25px;
+    padding: 60px;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+#form input {
+height: 50px;
+width: 450px;
+}
+#form button{
+    height: 80px;
+    width: 458px;
 }
 
 .container-footer {
